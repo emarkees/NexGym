@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { Link as RouterLink } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
-import Login from "./Login";
-import "./Header.css";
-import CreateAccount from "./signUp";
+import React, { useState, useEffect } from 'react';
+import { Link as RouterLink } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
+import Login from './Login';
+import './Header.css';
+import CreateAccount from './signUp';
 
 function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -16,7 +16,7 @@ function Header() {
     };
 
     return () => {
-      document.removeEventListener("click", closeDropdownMenu);
+      document.removeEventListener('click', closeDropdownMenu);
     };
   }, []);
 
@@ -53,11 +53,11 @@ function Header() {
         </div>
         <div className="header__nav">
           <div className="burger" onClick={toggleDropdown}>
-            <div className={`burger__line ${isDropdownOpen ? "active" : ""}`} />
-            <div className={`burger__line ${isDropdownOpen ? "active" : ""}`} />
-            <div className={`burger__line ${isDropdownOpen ? "active" : ""}`} />
+            <div className={`burger__line ${isDropdownOpen ? 'active' : ''}`} />
+            <div className={`burger__line ${isDropdownOpen ? 'active' : ''}`} />
+            <div className={`burger__line ${isDropdownOpen ? 'active' : ''}`} />
           </div>
-          <div className={`dropdown__menu ${isDropdownOpen ? "show" : ""}`}>
+          <div className={`dropdown__menu ${isDropdownOpen ? 'show' : ''}`}>
             <ul>
               <li>
                 <RouterLink
