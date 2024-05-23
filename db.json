@@ -1,0 +1,118 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Lite",
+      "price": 37.5,
+      "subscription": "Monthly",
+      "equipmentAccess": ["Basic Cardio Equipment", "Basic Strength Machines"],
+      "accessHours": "6 AM - 10 PM"
+    },
+    {
+      "id": 2,
+      "title": "Bronze",
+      "price": 50,
+      "subscription": "Quarterly",
+      "equipmentAccess": [
+        "All Cardio Equipment",
+        "Strength Machines",
+        "Free Weights"
+      ],
+      "accessHours": "5 AM - 11 PM"
+    },
+    {
+      "id": 3,
+      "title": "Silver",
+
+      "price": 75,
+      "subscription": "Six Month",
+      "equipmentAccess": [
+        "All Cardio Equipment",
+        "Strength Machines",
+        "Free Weights",
+        "Swimming Pool",
+        "Sauna"
+      ],
+      "accessHours": "24/7"
+    },
+    {
+      "id": 4,
+      "title": "Gold",
+      "price": 150,
+      "subscription": "Yearly",
+      "equipmentAccess": [
+        "All Cardio Equipment",
+        "Strength Machines",
+        "Free Weights",
+        "Swimming Pool",
+        "Sauna",
+        "Personal Trainer",
+        "Premium Classes",
+        "Rockwall",
+        "Boxing Ring"
+      ],
+      "accessHours": "24/7"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firsttitle": "John",
+      "lasttitle": "Doe",
+      "email": "john.doe@example.com",
+      "subscribedProduct": {
+        "id": 4,
+        "title": "Gold",
+        "price": 150000,
+        "equipmentAccess": [
+          "All Cardio Equipment",
+          "Strength Machines",
+          "Free Weights",
+          "Swimming Pool",
+          "Sauna",
+          "Personal Trainer",
+          "Premium Classes",
+          "Rockwall",
+          "Boxing Ring"
+        ],
+        "accessHours": "24/7"
+      }
+    },
+    {
+      "id": 2,
+      "firsttitle": "Jane",
+      "lasttitle": "Smith",
+      "email": "jane.smith@example.com",
+      "subscribedProduct": {
+        "id": 3,
+        "title": "Silver",
+        "price": 37500,
+        "equipmentAccess": [
+          "All Cardio Equipment",
+          "Strength Machines",
+          "Free Weights",
+          "Swimming Pool",
+          "Sauna"
+        ],
+        "accessHours": "24/7"
+      }
+    },
+    {
+      "id": 3,
+      "firsttitle": "Alice",
+      "lasttitle": "Johnson",
+      "email": "alice.johnson@example.com",
+      "subscribedProduct": {
+        "id": 2,
+        "title": "Bronze",
+        "price": 12500,
+        "equipmentAccess": [
+          "All Cardio Equipment",
+          "Strength Machines",
+          "Free Weights"
+        ],
+        "accessHours": "5 AM - 11 PM"
+      }
+    }
+  ]
+}
