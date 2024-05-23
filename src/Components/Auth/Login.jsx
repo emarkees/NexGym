@@ -22,12 +22,6 @@ const Login = ({ onClose }) => {
   return (
     <div className="modal__overlay">
       <div className="login__container__head">
-        {/* <img
-            className="login__logo"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
-            alt="Amazon logo"
-          /> */}
-
         <div className="login__container">
           <h1>Welcome to NExGym</h1>
           <form onSubmit={handleSignIn}>
